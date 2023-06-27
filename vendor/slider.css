@@ -1,0 +1,39 @@
+.list-slider {
+  background: #f8f8f8 !important;
+}
+
+.list-slider .slick-slide{
+    width: 150px !important;
+    font-size: 16px !important;
+    color: #000000 !important;
+}
+
+/* custom slide */
+.slider-container {
+  position: relative;
+}
+
+.custom-prev-arrow,
+.custom-next-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #ccc;
+  color: #fff;
+  padding: 10px;
+  cursor: pointer;
+  z-index: 1;
+}
+
+
+
+.custom-next-arrow {
+  right: 0;
+}
+
+.custom-prev-arrow:hover,
+.custom-next-arrow:hover {
+  background-color: #999;
+}
+
+
